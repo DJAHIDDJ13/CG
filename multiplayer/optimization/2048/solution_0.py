@@ -1,0 +1,1 @@
+while True:print('U\nL\nD\nR')

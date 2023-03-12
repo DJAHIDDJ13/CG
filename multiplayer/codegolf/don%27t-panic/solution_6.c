@@ -1,0 +1,1 @@
+y,x,p,e[99];main(){scanf("%*d%*d%*d%d%d%*d%*d%d",&y,&x,&p);for(e[y]=x;p--;scanf("%d%d",&y,&x),e[y]=x);for(char d[9];1;scanf("%d%d%s",&y,&x,d),puts(*d-'R'&&x>=e[y]||*d-'L'&&x<=e[y]?"WAIT":"BLOCK"));}

@@ -1,0 +1,1 @@
+puts [z="EENW"[x=gets.ord%7/2]]*(16+x),[?S*(x%2)+z]*17

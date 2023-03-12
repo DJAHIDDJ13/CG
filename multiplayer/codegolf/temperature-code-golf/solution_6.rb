@@ -1,0 +1,1 @@
+puts gets.to_i>0?gets.split.map(&:to_i).min_by{|x|x>0?x-0.1:-x}:0

@@ -1,0 +1,1 @@
+main(i,c){char v=2,b;while((c=getchar())+1&&c-10){i=7;while(i--){b=(c&(1<<i))>>i;(v-b)?printf("%s%s",v-2?" ":"",b?"0 0":"00 0"),v=b:putchar('0');}}}

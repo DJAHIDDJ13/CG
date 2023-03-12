@@ -1,0 +1,1 @@
+puts gets.to_i>0?gets.split.min_by{|x|[x.to_i.abs,-x.ord]}:0

@@ -1,0 +1,1 @@
+p`dd`.split[1..].map(&:to_i).min_by{[_1.abs,-_1]}||0

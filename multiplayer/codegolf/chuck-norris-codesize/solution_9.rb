@@ -1,0 +1,1 @@
+$><<gets.chomp.bytes.map{|n|'%07b'%n}.join.scan(/0+|1+/).map{|x|[?0*(2-x[0].to_i),?0*x.size]*' '}*" "

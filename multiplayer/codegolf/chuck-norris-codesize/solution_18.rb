@@ -1,0 +1,1 @@
+puts gets.chomp.codepoints.map{|x|'%07b'%x}.join.scan(/0+|1+/).map{|x|(x[0]=='1'?'0 ':'00 ')+'0'*x.length}.join(' ')

@@ -1,0 +1,1 @@
+puts gets.to_i==0?0:gets.split.map(&:to_i).sort_by{|x|x>0?x.abs-0.5:x.abs}[0]
