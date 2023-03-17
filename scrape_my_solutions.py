@@ -74,7 +74,7 @@ solved_puzzle_ids = [puzzle['id'] for puzzle in all_puzzles if puzzle['validator
 data = [solved_puzzle_ids, user_id, 2]
 solved_puzzles = req("Puzzle/findProgressByIds", data)
 
-for j, puzzle in enumerate(solved_puzzles[114:]):
+for j, puzzle in enumerate(solved_puzzles):
     print(f"[{j:03d}/{len(solved_puzzles):03d}]{puzzle['prettyId']}")
     data = [puzzle['prettyId'], user_id]
     puzzle_info = req("Puzzle/findProgressByPrettyId", data)
